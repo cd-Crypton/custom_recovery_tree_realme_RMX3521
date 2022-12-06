@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_bengal.mk
+    $(LOCAL_DIR)/twrp_RMX3521.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_bengal-user \
-    omni_bengal-userdebug \
-    omni_bengal-eng
+    twrp_RMX3521-user \
+    twrp_RMX3521-userdebug \
+    twrp_RMX3521-eng

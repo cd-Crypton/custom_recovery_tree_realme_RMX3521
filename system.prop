@@ -1,0 +1,4 @@
+# Persist
+persist.traced.enable=1
+persist.fuse_sdcard=true
+persist.sys.usb.config=1
