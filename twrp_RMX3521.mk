@@ -17,7 +17,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 BUILD_FINGERPRINT := $(PRODUCT_MANUFACTURER)/$(PRODUCT_RELEASE_NAME)/$(PRODUCT_RELEASE_NAME):12/RKQ1.211119.001/1666261300680:user/release-keys
 
 # Inherit from RMX3521 Device
-$(call inherit-product, device/$(PRODUCT_BRAND)/$(PRODUCT_RELEASE_NAME)/device.mk)
+$(call inherit-product, device/$(PRODUCT_MANUFACTURER)/$(PRODUCT_RELEASE_NAME)/device.mk)
 
 # Inherit from those products. Most specific first.
 $(call inherit-product-if-exists, $(SRC_TARGET_DIR)/product/embedded.mk)
