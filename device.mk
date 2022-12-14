@@ -20,12 +20,6 @@ AB_OTA_POSTINSTALL_CONFIG += \
     FILESYSTEM_TYPE_vendor=ext4 \
     POSTINSTALL_OPTIONAL_vendor=true
 
-# Boot Control HAL
-PRODUCT_PACKAGES += \
-    android.hardware.boot@1.0-impl-qti \
-    android.hardware.boot@1.0-impl-qti.recovery \
-    android.hardware.boot@1.0-service
-
 # OTA-related Packages
 PRODUCT_PACKAGES += \
     otapreopt_script \
@@ -64,14 +58,9 @@ PRODUCT_PROPERTY_OVERRIDES += persist.sys.fuse.passthrough.enable=true
 # A/B Device
 AB_OTA_PARTITIONS += \
     system \
-    system \
-    system_ext \
     system_ext \
     vendor \
-    vendor \
     product \
-    product \
-    odm \
     odm
 
 # Dynamic partitions
